@@ -79,15 +79,26 @@ donation_project/
 
 ##### Future Features
 
-    REST API with FastAPI or Flask
+   * REST API with FastAPI or Flask
 
-    Authentication for staff roles
+   * Authentication for staff roles
 
-    Dashboard and reporting tools
+  *  Dashboard and reporting tools
 
-    Donation eligibility checks
+   * Donation eligibility checks
 
-python app.py
+ ### Contributing
+
+PRs are welcome! Please open an issue first for major changes or feature requests.
+
+## License
+
+MIT License
+
+
+     
+
+
 
 
 
