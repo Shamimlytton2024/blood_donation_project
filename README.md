@@ -17,10 +17,8 @@ A backend application for tracking donations, donors, staff, and related testing
 
    ~ Database: SQLite (default, but easily configurable to Postgres/MySQL)    
    
- ####   Project Structure
-
-donation_project/
-├── models/
+ ####   Project Structuredonation_project/
+├── lib/
 │   ├── donor.py
 │   ├── donation.py
 │   ├── staff.py
@@ -32,19 +30,20 @@ donation_project/
 ├── requirements.txt
 └── README.md
 
-##### Setup Instructions
+ ##### Setup Instructions
 
 1.    Clone the repository
 
-~ git clone https://github.com/yourusername/donation_project.git
+~ git clone https://github.com/shamimlytton2024/donation_project.git
 ~ cd donation_project
 
- 2.   Create a virtual environment and activate it
+ 2.  Create a virtual environment and activate it
 
-~ python -m venv venv
-~ source venv/bin/activate  # On Windows: venv\Scripts\activate
+~python -m venv venv
+~source venv/bin/activate  # On Windows: venv\Scripts\activate
 
- 3.   Install dependencies
+
+3.   Install dependencies
 
 ~ pip install -r requirements.txt 
 
