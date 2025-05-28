@@ -34,7 +34,7 @@ A backend application for tracking donations, donors, staff, and related testing
 
 1.    Clone the repository
 
-~ git clone https://github.com/shamimlytton2024/donation_project.git
+~ git clone https://github.com/Shamimlytton2024/donation_project.git
 ~ cd donation_project
 
  2.  Create a virtual environment and activate it
