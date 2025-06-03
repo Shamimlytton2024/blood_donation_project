@@ -1,7 +1,9 @@
-from lib.database import engine, Base
-import lib.models  # This is VERY important!
+from sqlalchemy import Column, Integer, String
+from lib.database import Base
 
-# Create all tables
-Base.metadata.create_all(engine)
+class Donor(Base):
+    __tablename__ = 'donor'
 
-print("All tables created successfully in blood_donation.db")
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    email = Column(String)  #  Add this line

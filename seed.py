@@ -5,16 +5,18 @@ def seed():
     session = Session()
 
     # Create Donors
-    donor1 = Donor(name="Praise")
-    donor2 = Donor(name="Shana")
-    donor3 = Donor(name="Ivrine")
-    donor4 = Donor(name="Shilom")
+    donor1 = Donor(name="Praise", email="praise@gmail.com")
+    donor2 = Donor(name="Shana", email="shana@gmail.com")
+    donor3 = Donor(name="Ivrine", email="ivrine@gmail.com")
+    donor4 = Donor(name="Shilom", email="shilom@gmail.com")
 
     # Create Staff
     staff1 = Staff(name="Dr. Smith")
     staff2 = Staff(name="Nurse Ivana")
     staff3 = Staff(name="Dr. Sirima")
     staff4 = Staff(name="Nurse Laviniah")
+    
+
 
     # Add to session
     session.add_all([donor1, donor2, donor3, donor4, staff1, staff2, staff3, staff4])

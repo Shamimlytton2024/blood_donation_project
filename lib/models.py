@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship, Mapped, mapped_column
-from .database import Base
+from lib.database import Base
 from typing import List, Optional
 
 class Donor(Base):
@@ -11,6 +11,7 @@ class Donor(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String, nullable=False)
+    email: Mapped[Optional[str]] = mapped_column(String, nullable=True)
 
     donations: Mapped[List["Donation"]] = relationship('Donation', back_populates='donor')
 
