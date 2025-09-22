@@ -1,4 +1,4 @@
-# Bloo_Donation_Project
+# Blood_Donation_Project
 A backend application for tracking donations, donors, staff, and related testing processes. Built using Python and SQLAlchemy.
 
 ## Features
