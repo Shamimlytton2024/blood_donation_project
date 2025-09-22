@@ -1,4 +1,4 @@
-# Donation Project
+# Bloo_Donation_Project
 A backend application for tracking donations, donors, staff, and related testing processes. Built using Python and SQLAlchemy.
 
 ## Features
